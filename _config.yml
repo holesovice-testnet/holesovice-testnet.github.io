@@ -1,0 +1,9 @@
+encoding: utf-8
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+plugins:
+  - jekyll-sitemap
