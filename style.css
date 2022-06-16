@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-dark: #2e2e2e;
+  --color-blue: #00697f;
+  --color-cyan: #89d3e2;
+  --color-green: #8ed54c;
+}
+
+body {
+  background-color: var(--color-dark);
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./assets/holesovice.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
