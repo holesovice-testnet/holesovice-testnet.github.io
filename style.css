@@ -2,7 +2,6 @@
 *::before,
 *::after {
   margin: 0;
-  padding: 0;
 }
 
 :root {
@@ -10,16 +9,28 @@
   --color-blue: #00697f;
   --color-cyan: #89d3e2;
   --color-green: #8ed54c;
+  --color-white: #fafafa;
 }
 
 body {
   background-color: var(--color-dark);
+  color: var(--color-white);
+}
+
+a {
+  color: inherit;
 }
 
 .hero {
-  height: 100vh;
   width: 100vw;
-  background-image: url("./assets/holesovice.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
+  display: flex;
+  justify-content: center;
+}
+.hero__image {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  padding: 0.25em;
 }
